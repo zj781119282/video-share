@@ -1,0 +1,139 @@
+@media only screen and (min-width: 340px) {
+    html {
+        font-size: 20px !important;
+    }
+}
+
+@media only screen and (min-width: 401px) {
+    html {
+        font-size: 25px !important;
+    }
+}
+
+@media only screen and (min-width: 428px) {
+    html {
+        font-size: 26.75px !important;
+    }
+}
+
+@media only screen and (min-width: 481px) {
+    html {
+        font-size: 30px !important;
+    }
+}
+
+@media only screen and (min-width: 569px) {
+    html {
+        font-size: 35px !important;
+    }
+}
+
+@media only screen and (min-width: 641px) {
+    html {
+        font-size: 40px !important;
+    }
+}
+
+body {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 800px;
+    font-family: '΢���ź�', arial;
+    background: #000;
+}
+
+video {
+    object-fit: fill;
+    margin: 0 auto;
+}
+
+.cm_head {
+    text-align: left;
+    background: #373945;
+    z-index: 1000;
+    padding: .5rem 1rem;
+    color: #fff;
+    position: relative;
+    z-index: 101;
+}
+
+.cm_head p {
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.cm_head .name {
+    font-size: .7rem;
+    font-weight: normal;
+    line-height: 1rem;
+}
+
+.cm_head a {
+    position: absolute;
+    background: #249fff;
+    padding: .3rem .8rem;
+    border-radius: 10px;
+    color: #fff;
+    right: 1rem;
+    font-size: .7rem;
+    top: 30%;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .5);
+    text-decoration: none;
+}
+
+.cm_video {
+    position: absolute;
+    width: 100%;
+    max-width: 800px;
+    min-height: 500px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0px auto;
+    overflow: hidden;
+    background: #000;
+}
+
+.cm_video video {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+}
+
+.cm_video img {
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#play {
+    position: absolute;
+    outline: none;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto auto;
+    width: 4rem;
+    height: 4rem;
+    background-image: url(../69_files/app_bofang.png);
+    background-size: cover;
+    border-radius: 10rem;
+    text-indent: -999em;
+    z-index: 102;
+    border: 0px;
+}
